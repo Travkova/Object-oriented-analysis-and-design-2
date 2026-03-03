@@ -1,0 +1,10 @@
+C:\Users\Ирина\Desktop\Irene\ООАП\lr1_withPattern\bin\Debug\lr1_withPattern.exe.config
+C:\Users\Ирина\Desktop\Irene\ООАП\lr1_withPattern\bin\Debug\lr1_withPattern.exe
+C:\Users\Ирина\Desktop\Irene\ООАП\lr1_withPattern\bin\Debug\lr1_withPattern.pdb
+C:\Users\Ирина\Desktop\Irene\ООАП\lr1_withPattern\obj\Debug\lr1_withPattern.csproj.AssemblyReference.cache
+C:\Users\Ирина\Desktop\Irene\ООАП\lr1_withPattern\obj\Debug\lr1_withPattern.Properties.Resources.resources
+C:\Users\Ирина\Desktop\Irene\ООАП\lr1_withPattern\obj\Debug\lr1_withPattern.csproj.GenerateResource.cache
+C:\Users\Ирина\Desktop\Irene\ООАП\lr1_withPattern\obj\Debug\lr1_withPattern.csproj.CoreCompileInputs.cache
+C:\Users\Ирина\Desktop\Irene\ООАП\lr1_withPattern\obj\Debug\lr1_withPattern.exe
+C:\Users\Ирина\Desktop\Irene\ООАП\lr1_withPattern\obj\Debug\lr1_withPattern.pdb
+C:\Users\Ирина\Desktop\Irene\ООАП\lr1_withPattern\obj\Debug\lr1_withPattern.Form1.resources
