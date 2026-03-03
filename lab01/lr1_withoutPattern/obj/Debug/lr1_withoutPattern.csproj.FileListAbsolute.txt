@@ -1,0 +1,10 @@
+C:\Users\Ирина\Desktop\Irene\ООАП\lr1_withoutPattern\bin\Debug\lr1_withoutPattern.exe.config
+C:\Users\Ирина\Desktop\Irene\ООАП\lr1_withoutPattern\bin\Debug\lr1_withoutPattern.exe
+C:\Users\Ирина\Desktop\Irene\ООАП\lr1_withoutPattern\bin\Debug\lr1_withoutPattern.pdb
+C:\Users\Ирина\Desktop\Irene\ООАП\lr1_withoutPattern\obj\Debug\lr1_withoutPattern.csproj.AssemblyReference.cache
+C:\Users\Ирина\Desktop\Irene\ООАП\lr1_withoutPattern\obj\Debug\lr1_withoutPattern.Form1.resources
+C:\Users\Ирина\Desktop\Irene\ООАП\lr1_withoutPattern\obj\Debug\lr1_withoutPattern.Properties.Resources.resources
+C:\Users\Ирина\Desktop\Irene\ООАП\lr1_withoutPattern\obj\Debug\lr1_withoutPattern.csproj.GenerateResource.cache
+C:\Users\Ирина\Desktop\Irene\ООАП\lr1_withoutPattern\obj\Debug\lr1_withoutPattern.csproj.CoreCompileInputs.cache
+C:\Users\Ирина\Desktop\Irene\ООАП\lr1_withoutPattern\obj\Debug\lr1_withoutPattern.exe
+C:\Users\Ирина\Desktop\Irene\ООАП\lr1_withoutPattern\obj\Debug\lr1_withoutPattern.pdb
