@@ -9,3 +9,4 @@
 - Абстракция — способы оплаты
 - Реализация — платежные шлюзы
 ## Диаграмма классов
+<img width="1100" height="622" alt="image" src="https://github.com/user-attachments/assets/90a85b1a-3f11-41e9-8f40-7a30ff246181" />
