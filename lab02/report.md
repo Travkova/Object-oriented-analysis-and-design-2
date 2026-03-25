@@ -9,7 +9,8 @@
 - Абстракция — способы оплаты
 - Реализация — платежные шлюзы
 ## Диаграмма классов
-<img width="1111" height="378" alt="bridgeclass drawio" src="https://github.com/user-attachments/assets/ea76276f-568c-45e4-ac9b-7fcaeedde67f" />
+<img width="1274" height="539" alt="image" src="https://github.com/user-attachments/assets/30fa0670-99ef-492a-ad98-14f9146fa3a1" />
+
 
 
 
