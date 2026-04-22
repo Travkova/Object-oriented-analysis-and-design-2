@@ -11,6 +11,7 @@ class SudokuSnapshot:
     __slots__ = ("_grid", "_notes", "_initial_mask", "_mistakes", "_timer")
 
     def __init__(self, grid, notes, initial_mask, mistakes, timer):
+        #все копирования внутри хранителя
         self._grid = copy.deepcopy(grid)
         self._notes = copy.deepcopy(notes)
         self._initial_mask = copy.deepcopy(initial_mask)
@@ -18,7 +19,7 @@ class SudokuSnapshot:
         self._timer = timer
 
     def _get_state(self) -> dict:
-        """Внутренний метод. Доступен только SudokuGame."""
+        """Внутренний метод. Доступен только SudokuGame"""
         return {
             "grid": copy.deepcopy(self._grid),
             "notes": copy.deepcopy(self._notes),
@@ -69,10 +70,12 @@ class SudokuGame:
         return True
 
     def create_memento(self) -> 'SudokuSnapshot':
+        #создание снимка
         self.timer = time.time() - self._start_time
         return SudokuSnapshot(self.grid, self.notes, self.initial_mask, self.mistakes, self.timer)
 
     def restore(self, snapshot: 'SudokuSnapshot') -> None:
+        #восстановление состояния из снимка
         state = snapshot._get_state()
         self.grid = state["grid"]
         self.notes = state["notes"]
@@ -82,13 +85,13 @@ class SudokuGame:
         self._start_time = time.time() - self.timer
 
 class SaveManager:
-    """Опекун: управление Undo/Redo"""
+    """Опекун: управление Undo/Redo. Работает со снимками, не зная их внутренностей"""
     def __init__(self):
         self.undo_stack: List[SudokuSnapshot] = []
         self.redo_stack: List[SudokuSnapshot] = []
 
     def push(self, snapshot: SudokuSnapshot):
-        self.undo_stack.append(snapshot)
+        self.undo_stack.append(snapshot) #добавление снимка в стек undo
         self.redo_stack.clear()  #очистка redo при новом действии
 
     def undo(self) -> Optional[SudokuSnapshot]:
@@ -231,6 +234,7 @@ class SudokuApp:
         self.status_var.set(f"Ошибки: {self.game.mistakes} | Таймер: {self.game.timer:.1f}с")
 
     def _start_timer(self):
+        self.game.timer = time.time() - self.game._start_time
         self._update_status()
         self.root.after(1000, self._start_timer)
 
