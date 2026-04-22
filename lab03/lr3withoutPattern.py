@@ -50,6 +50,7 @@ class SaveManager:
 
     def push(self, game: SudokuGame):
         # Дублирование логики копирования состояния
+        game.timer = time.time() - game._start_time
         snapshot = {
             "grid": copy.deepcopy(game.grid),
             "notes": copy.deepcopy(game.notes),
@@ -197,6 +198,7 @@ class SudokuApp:
         self.status_var.set(f" Ошибки: {self.game.mistakes} | Таймер: {self.game.timer:.1f}с")
 
     def _start_timer(self):
+        self.game.timer = time.time() - self.game._start_time
         self._update_status()
         self.root.after(1000, self._start_timer)
 
