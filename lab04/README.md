@@ -10,7 +10,8 @@
 ## Решение
 Для решения данной проблемы применён архитектурный паттерн проектирования "Шлюз". В системе реализован класс CharacterGateway, который выступает единой точкой входа и полностью инкапсулирует доступ к источнику данных. 
 ## Диаграмма классов
-<img width="1120" height="307" alt="uml4" src="https://github.com/user-attachments/assets/bf8c77af-badc-47a4-a939-bbd3dfd272a5" />
+<img width="979" height="328" alt="image" src="https://github.com/user-attachments/assets/2cf27a4f-1430-4c77-942e-b0fe3ecafddd" />
+
 
 
 ## Вывод
